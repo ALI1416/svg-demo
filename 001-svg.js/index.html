@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="./js/svg.js"></script>
+  <title>Title</title>
+  <style>
+      svg {
+          border: 1px solid black;
+          width: 300px;
+          height: 300px;
+          display: inline-block;
+          margin: 5px;
+      }
+  </style>
+</head>
+<body>
+<script>
+  // 1、创建画布
+  const draw = SVG().addTo('body').size(300, 300)
+  // 2、绘制图形
+  const rect = draw.rect(100, 100).attr({fill: '#6cf'})
+  // 3、导出svg(注意：无法导出动画)
+  console.log(draw.svg())
+</script>
+</body>
+</html>

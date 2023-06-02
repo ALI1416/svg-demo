@@ -6,7 +6,7 @@
 ## 简介
 
 - svg官方文档：<https://developer.mozilla.org/zh-CN/docs/Web/SVG>
-- svg.js官方文档：<https://svgjs.dev/docs/3.0/>
+- svg.js官方文档：<https://svgjs.dev/docs/3.1/>
 
 ## 交流
 
